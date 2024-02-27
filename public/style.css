@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.nav h2 {
+    margin: 0 0 0 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.nav i {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+}
+
+.man {
+    position: absolute;
+    bottom: 70px;
+    left: 450px;
+}
+
+.man img {
+    height: 400px;
+    filter: drop-shadow(5px 5px 5px #555);
+}
+
+.plant {
+    position: absolute;
+    bottom: 70px;
+    right: 530px;
+}
+
+.plant img {
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px #555);
+}
+
+.fra1 {
+    position: absolute;
+    left: 450px;
+    top: 150px;
+}
+
+.fra1 img {
+    height: 130px;
+    filter: drop-shadow(5px 5px 5px #555);
+}
+
+.ph {
+    height: 499px;
+    width: 300px;
+    border: 11px solid #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(120deg, #fff, #8f89898b);
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.42);
+}
+
+.ph-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 69vh;
+    margin-top: -40px;
+}
+
+.hr {
+    border: 2px solid #000;
+    align-self: flex-end;
+    margin: -5px 0 0 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.635);
+}
+
+.cam {
+    height: 30px;
+    width: 120px;
+    border-radius: 0 0 10px 10px;
+    background: #000;
+}
+
+.container2 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container2 h2 {
+    margin: 0 0 50px 0;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 -15px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+}
+
+button {
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    background: crimson;
+    box-shadow: 0 0 5px rgb(182, 58, 83),
+        0 0 25px rgb(182, 58, 83);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .2s;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgb(182, 58, 83),
+        0 0 25px rgb(182, 58, 83),
+        0 0 80px rgb(179, 75, 96);
+    transform: scale(1.1);
+}
